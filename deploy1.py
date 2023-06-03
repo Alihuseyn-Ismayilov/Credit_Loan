@@ -18,7 +18,13 @@ st.markdown(
 )
 st.title('Credit prediction based on historical')
 
-model = joblib.load('model.joblib')
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(current_dir, 'model.joblib')
+
+model = joblib.load(model_path)
 
 
 
