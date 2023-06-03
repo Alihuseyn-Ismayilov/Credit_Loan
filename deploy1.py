@@ -1,4 +1,4 @@
-import pickle as pkl
+#import pickle as pkl
 import warnings
 import streamlit as st
 import joblib
