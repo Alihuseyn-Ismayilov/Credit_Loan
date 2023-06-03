@@ -18,8 +18,7 @@ st.markdown(
 )
 st.title('Credit prediction based on historical')
 
-with open('model.pkl', 'rb') as file:
-    model = pkl.load(file)
+model = joblib.load('model.joblib')
 
 
 
