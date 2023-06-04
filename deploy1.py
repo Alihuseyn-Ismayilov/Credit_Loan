@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     .css-1y4p8pa {
-        padding: 1.2rem;
+        padding: 1.3rem;
     }
     </style>
     <h2>Credit prediction based on historical Data</h2>
