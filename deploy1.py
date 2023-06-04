@@ -13,7 +13,7 @@ st.markdown(
         padding: 1rem;
     }
     </style>
-    <h3>Credit prediction based on historical Data</h3>
+    <h2>Credit prediction based on historical Data</h2>
     """,
     unsafe_allow_html=True
 )
