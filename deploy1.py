@@ -13,10 +13,11 @@ st.markdown(
         padding: 1rem;
     }
     </style>
+    <h1>'Credit prediction based on historical Data</h1>
     """,
     unsafe_allow_html=True
 )
-st.title('Credit prediction based on historical')
+#st.title('Credit prediction based on historical Data')
 
 import os
 
